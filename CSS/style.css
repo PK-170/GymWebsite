@@ -61,3 +61,17 @@ body{
 .btn:hover{
     background-color: gray;
 }
+.container{
+    border: 2px solid gray;
+    margin: 175px 75px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 10px;
+}
+.form-group{
+    margin-top:10px;
+    border-radius: 10px;
+}
+.btn{
+  margin-top: 20px;
+}
