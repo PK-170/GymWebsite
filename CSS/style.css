@@ -1,15 +1,14 @@
-body{
-    font-family: 'Fira Sans', sans-serif;
-    margin: 0px;
-    border-radius: 2px;
+*{
+    box-sizing: border-box;
 }
 .left{
    display: inline-block;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    position: absolute;
    left: 60px;
    top: 20px;
-   color: white;   
+   color: white; 
+   
 }
 .left img{
     width: 136px;
@@ -22,14 +21,14 @@ body{
     display: block;
     width: 35%;
     margin: 20px auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .right{
     position: absolute;
     right: 34px;
     top: 20px;
     display: inline-block;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 .navbar{
     display: inline-block;
@@ -40,7 +39,7 @@ body{
 }
 .navbar li a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
     padding: 34px 24px;
 }
 .navbar li a:hover, .navbar li a:active{
@@ -64,14 +63,27 @@ body{
 .container{
     border: 2px solid gray;
     margin: 175px 75px;
-    padding: 75px;
-    width: 33%;
+    padding: 40px;
+    width: 36%;
     border-radius: 10px;
 }
-.form-group{
-    margin-top:10px;
+.container h1 {
+    text-align: center;
+}
+.container button {
+    display: block;
+    width: 87%;
+    margin: 20px auto;
+}
+.form-group input {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    display: block;
     border-radius: 10px;
+    border: 2px solid black;
+    padding: 2px;
+    width: 450px;
+    margin: 9px auto;
+    font-size: 15px;
 }
-.btn{
-  margin-top: 20px;
-}
+
